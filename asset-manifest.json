@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/moon-knight/static/css/main.beefa23d.css",
+    "main.js": "/moon-knight/static/js/main.0f7f82f0.js",
+    "static/js/787.1d5a84e0.chunk.js": "/moon-knight/static/js/787.1d5a84e0.chunk.js",
+    "index.html": "/moon-knight/index.html",
+    "main.beefa23d.css.map": "/moon-knight/static/css/main.beefa23d.css.map",
+    "main.0f7f82f0.js.map": "/moon-knight/static/js/main.0f7f82f0.js.map",
+    "787.1d5a84e0.chunk.js.map": "/moon-knight/static/js/787.1d5a84e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.beefa23d.css",
+    "static/js/main.0f7f82f0.js"
+  ]
+}
