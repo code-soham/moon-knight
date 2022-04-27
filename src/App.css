@@ -4,8 +4,8 @@
   min-width: 100vw;
 }
 .board {
-  height: 60vh;
-  width: 60vh;
+  height: min(60vw, 60vh);
+  width: min(60vw, 60vh);
   display: grid;
   /*chess board*/
   max-width: 600px;
