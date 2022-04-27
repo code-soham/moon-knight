@@ -1,38 +1,42 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: #123456;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-width: 100vw;
+}
+.board {
+  height: 60vh;
+  width: 60vh;
+  display: grid;
+  /*chess board*/
+  max-width: 600px;
+  margin: 0 auto;
+
+  max-height: 600px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-gap: 2px;
+  background-color: #123456;
 }
 
-.App-link {
-  color: #61dafb;
+.square {
+  border: 1px solid #fff;
+  border-radius: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.black {
+  background-color: #d18b47;
+}
+.white {
+  background-color: #ffce9e;
+}
+.knight {
+  background-image: url("https://i.imgur.com/Yyznd4v.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.moon-knight {
+  background-image: url("https://i.imgur.com/2rXSFCl.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
